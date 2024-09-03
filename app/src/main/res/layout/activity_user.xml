@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    tools:context=".ui.UserActivity">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vamos_come_ar"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:textSize="40sp"/>
+
+
+        <EditText
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/qual_seu_nome"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#021B01"
+            android:hint="SALVAR"
+            android:padding="30sp"
+            android:layout_marginBottom="16sp"
+            android:textColorHint="@color/white" />
+
+
+
+
+
+
+    </RelativeLayout>

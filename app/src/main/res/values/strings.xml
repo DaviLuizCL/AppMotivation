@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Motivation</string>
+    <string name="o_medo_me_faz_ter_certeza_que_estou_no_caminho_certo">O medo me faz ter certeza que estou no caminho certo!</string>
+    <string name="nova_frase">Nova Frase</string>
+    <string name="ol_kotlin">Olá Kotlin</string>
+    <string name="validation_name">Por favor, digite seu nome</string>
+    <string name="qual_seu_nome">Qual seu nome?</string>
+    <string name="vamos_come_ar">Vamos começar?</string>
+</resources>
